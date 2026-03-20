@@ -16,6 +16,7 @@ A multi-agent AI system that generates Instagram posts using LLMs and image gene
 🤖 Multi-agent architecture
 
 🧩 Architecture
+
 User Input
    ↓
 Caption Agent (LLM)
