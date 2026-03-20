@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "caption",
+        "topic"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\"  \n    Create a high-quality Instagram post image.\n\n    Topic: {topic}\n\n    Based on this idea:\n    {caption}\n\n    Style:\n    - Modern\n    - Minimal\n    - Aesthetic\n    - Vibrant colors\n    - Professional Instagram look\n    - No text overlay\n    - Centered composition\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

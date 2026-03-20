@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "tone",
+        "topic"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\"  \n    You are a professional Instagram content creator.\n\nYour task is to write a high-quality Instagram caption based on the given inputs.\n\nInputs:\n- Topic: {topic}\n- Tone: {tone}\n\nInstructions:\n1. Write a compelling caption in maximum 150 words.\n2. Start with a strong hook in the first line to grab attention.\n3. Maintain the specified tone consistently throughout.\n4. Make the caption engaging, natural, and human-like.\n5. Add a clear takeaway, insight, or emotional value.\n6. Avoid generic, repetitive, or overly promotional language.\nHashtags:\n7. Generate 5-10 highly relevant hashtags.\n8. Include a mix of trending and niche hashtags.\n9. Avoid overly generic hashtags like #love or #instagood unless highly relevant.\n\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
